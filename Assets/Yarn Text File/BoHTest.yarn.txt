@@ -3,10 +3,14 @@ tags:
 colorID: 0
 position: 592,181
 ---
-Intro...
-The grand opening of the first Bank of Hope in the world.
+The Bank of Hope has developed cutting-edge technology that helps individuals produce hope at an increased rate.
+This gives people the ability to feel hope.
+If prescribed by a specialist, hope is known to increase positivity.
+Based on a recent survey, 86% people reported better overall performance in life after treatment and 92% more likely to achieve their goals.
+The procedure transfers hope into people’s brains.
+However, customers must agree to genetic testing at the BoH in order for the painless process to take full effect.
 ->See what Tori Lee is up to.
-    Tori (14) comes home to see her dad, Peter Lee, lying on the floor. 
+    Tori (15) comes home to see her dad, Peter Lee, lying on the floor. 
     Tori gets him to the emergency room.
 ->See what Sammy Lee is up to.
     Tori's mother, Sammy Lee, gives an introduction to the valued customers that are invited to attend the grand opening. 
