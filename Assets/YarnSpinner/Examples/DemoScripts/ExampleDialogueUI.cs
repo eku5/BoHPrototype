@@ -97,11 +97,18 @@ namespace Yarn.Unity.Example {
                 // Display the line one character at a time
                 var stringBuilder = new StringBuilder ();
 
-                foreach (char c in line.text) {
-                    stringBuilder.Append (c);
-                    lineText.text = stringBuilder.ToString ();
-                    yield return new WaitForSeconds (textSpeed);
-                }
+				foreach (char c in line.text) {
+					stringBuilder.Append (c);
+					lineText.text = stringBuilder.ToString ();
+					//Press any key for line to comepletely run 
+					if (Input.anyKeyDown) {
+						yield return new WaitForSeconds (0.00001f);
+						lineText.text = line.text;
+						break;
+                		
+					}
+					yield return new WaitForSeconds (textSpeed); 
+				}
             } else {
                 // Display the line immediately if textSpeed == 0
                 lineText.text = line.text;
