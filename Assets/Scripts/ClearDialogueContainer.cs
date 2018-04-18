@@ -6,20 +6,26 @@ using UnityEngine.UI;
 public class ClearDialogueContainer : MonoBehaviour {
 
 	public Text words;
-	public Color here;
+	private Color here;
+	private Image image;
 	// Use this for initialization
 	void Start () {
-		
+		image = GetComponent<Image> ();
+		here = image.color;
 	}
 
 	// Update is called once per frame
 	void Update () 
 	{
-		if (words.text == "") {
+		//First attempt at making the Dialoge Container clear when there is no text.
 
-			GameObject.Find ("Dialogue Container").GetComponent<Image> ().color = Color.clear; 
+		if (!words.gameObject.activeInHierarchy) {
+
+			image.color = Color.clear; 
 		} else {
-			GameObject.Find ("Dialogue Container").GetComponent<Image> ().color = here;
+			image.color = here;
 		}
+
+
 	}
 }
