@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class ChangeBackground : MonoBehaviour {
 	public Sprite[] backgroundImages;
@@ -23,6 +24,13 @@ public class ChangeBackground : MonoBehaviour {
 			currentBackgroundIndex = backgroundIndex;
 			backgroundSr.sprite = backgroundImages [backgroundIndex];
 		}
+	}
+
+	[YarnCommand("do")]
+	public void doThing(string sent)
+	{
+		int index = int.Parse (sent);
+		Debug.Log (sent + " is the string you sent me!");
 	}
 
 }
