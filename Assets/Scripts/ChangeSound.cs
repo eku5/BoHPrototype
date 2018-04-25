@@ -28,7 +28,7 @@ public class ChangeSound : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		Debug.Log (source.isPlaying);
+		//Debug.Log (source.isPlaying);
 		currentSoundIndex = Mathf.RoundToInt (variableStorage.GetValue ("$soundIndex").AsNumber);
 		if (backgroundSounds != backgroundSound [currentSoundIndex]) 
 		{
