@@ -5,7 +5,7 @@ position: 592,181
 ---
 There are so many people here, maybe a little bit too many.
 Tori feels like she is at a market instead of a bank.
-She turns and glances at the people around her: In their eyes, some sorrow, some expectation. Why don’t they look very happy? Tory asks herself.
+She turns and glances at the people around her: In their eyes, some sorrow, some expectation. Why don’t they look very happy? Tori asks herself.
 There is a stage at the center of the lobby. A spotlight shines on a small potted tree in the corner of the stage.
 Nicole stands on the stage. She's charismatic and modern. The sight calls to mind a Steve Jobs product launch or Gwyneth Paltrow delivering a TED talk.
 NICOLE (to crowd): So, is everyone ready to get rid of some hope?
@@ -47,26 +47,164 @@ Tori could hear people GOSSIP. They stare at her, judging. Tori gives in.
 TORI: Sorry, I’m a little scared.
 NICOLE: You’re going to be fine, sweet pea.
 TORI: Okay, I’m ready.
-Nicole presses a button on the controller attached to the
-armrest. The armchair leans back. Tori closes her eyes.
+Nicole presses a button on the controller attached to the armrest. The armchair leans back. Tori closes her eyes.
+Some yellow gas appears in the crystal ball. Tori’s face twitches. Stop it! That’s enough! She thinks.
+But Nicole is looking at the yellow gas, amazed. Tori tries to open her eyes but she is paralyzed. Tori is about to lose conscious. Darkness...
+Beep.
+Nicole finally pushes the button on the controller but it’s too late -
+The machine already stopped injecting automatically. Tori opens her eyes, she sits up.
+NICOLE (to Tori): How do you feel?
+Tori stands up and looks at her own fingers. People take out phones and open their cameras to record this moment. Nicole puts up a even bigger smile.
+TORI: I feel alright.
+Nicole is a little relieved. People CLAP.
+TORI: Are you going to pay me now?
+The crowd LAUGHS, Nicole LAUGHS with them. Tori doesn’t.
 
-->END FOR NOW
-    Tori (15) comes home to see her dad, Peter Lee, lying on the floor.
-    <<set $soundIndex to 1>>
-    Tori gets him to the emergency room.
-->STOP PLAYING
-    Tori's mother, Sammy Lee, gives an introduction to the valued customers that are invited to attend the grand opening. 
-    Sammy gives a tutorial on how to choose the kind of hope the customers want.
-Tori's dad is in a coma. Tori regrets that she hasn’t been nice to her dad. 
-She believes that getting him a vial of hope will wake him up.
+***Missing Beat- See Chapter 2 in the folder & change image here to school***
 
-[[Tori gets Peter “hope of health.”|health]] #line:e6cebba9
-[[Tori gets Peter “hope of fame.”|fame]] #line:30ee1a0e
+This is the heaviest textbook Tori has ever seen. Tori tosses it into her locker.
+A hand taps on her shoulder. She turns back and sees -
+Cameron, cute, rebellious, long bangs almost cover his eyes.
+TORI: Jesus, you scared me.
+CAMERON: How was it?
+Tori realizes what Cameron is asking and pretends to be cool.
+TORI: What? Oh, the bank?
+->It was okay.
+    Cameron shrugs.
+    CAMERON: Really? I heard there were at least 200 people. I feel bad for them.
+->It was bad.
+    Cameron raises his eyebrows.
+    CAMERON: Oh, you think so? You know what, I kind of agree...
+->It was so cool!
+    Cameron looks suspicious.
+    CAMERON: Which part is cool? Capitalism finding a way of commoditizing everything?
+Tori stares at Cameron.
+TORI: Why did you say that?
+CAMERON: It’s...sorry, it’s personal.
+TORI: Apparently it’s because of the bank. Come on, tell me.
+Cameron shakes his head.
+CAMERON: Don’t worry about it, I’ll see you in 6th period.
+Cameron checks his watch and walks off. Tori looks at his back, she doesn’t understand why Cameron is acting so weird.
+
+**Change image here to house**
+
+Tori, still has her backpack on, cranes her head in at the door and sees her dad PETER LEE (45) sleeping on his laptop. He has a long face and black stubble on his chin.
+The entire desk is piled with books and sketches. Silently fuming, Tori steps into the study.
+TORI: Dad, would you extract hope for money?
+Peter doesn’t wake up.
+TORI: Dad? I’ve been thinking about it. I mean, I get it that some people might think they don’t need hope.
+Peter remains unconscious.
+TORI: Wake up.
+Tori leans to check on Peter. She shakes Peter’s shoulders.
+TORI: Dad?
+Peter slides off the chair and falls onto the floor.
+TORI: DAD!!!
+->Perform CPR.
+    Tori puts her hands on Peter’s chest and awkwardly presses. Peter frowns.
+    TORI: Dad! Please wake up...
+    Tori continues to put pressure on Peter’s chest but she has done no medical training. Peter’s face turns purple.
+    Tori watches Peter stops breathing. 
+    [[End Game.|End]]
+->Call Mom.
+    Tori pulls out her cell phone and calls Nicole.
+    NICOLE: Hello?
+    TORI: Dad is unconscious!
+    Nicole freezes for a second. When she speaks again, her voice shakes.
+    NICOLE: Okay, hang on, stay with your dad, I’m calling 911 now.
+    TORI: Okay...
+    NICOLE: Calm down, your dad needs you.
+->Call 911.
+Tori pulls out her cell phone number and dials 911. After a few seconds, someone picks up.
+->Help me! My dad is unconscious!
+    911: Please describe your emergency as concise as you can so that we can get to you as fast as possible.
+    TORI: My dad is lying on the floor!
+    911: Where do you live?
+    Sobbing, Tori tries to calm down and tells them the address.
+->This is Tori Lee, my dad is unconscious, here is our address.
+->*Crying*
+    911: Please describe your emergency as concise as you can so that we can get to you as fast as possible.
+    Peter’s face slowly turns purple.
+    TORI: Dad!!!
+    911: Miss, please -
+    TORI: I can’t...I can’t...
+    Peter dies.
+    [[End Game.|End]]
+Tori waits impatiently, she hears SIRENS. An ambulance stops in front of her house.
+<<set $soundIndex to 1>>
+
+Outside a closed patient room, Tori sits on one of the chairs next to the wall alone, face buried in her hands.
+CLICK CLICK, Nicole appears at the end of the hallway with the sound of high heels. Tori looks up. Nicole strides to take Tori into her arms.
+TORI: This wouldn’t have happened if you guys stayed together.
+NICOLE: I...
+TORI: Can you move back in to take care of dad?
+NICOLE: I don’t know --
+CRACK. The door opens. A DOCTOR walks out with a binder. Nicole and Tori both stand up.
+DOCTOR: Are you immediate family members of Mr. Peter Lee?
+NICOLE: Yes, I’m his wife. This is our daughter.
+TORI: Is my dad okay?
+DOCTOR: Yes, he is awake now.
+Tori and Nicole sigh with relief.
+NICOLE: Thank you!
+DOCTOR: However, we went through his test results, and the biopsy showed signs of large cell non-hodgkin's lymphoma.
+NICOLE: What is that?
+DOCTOR: It’s a form of cancer. And I’m afraid that we didn’t catch it very early.
+Nicole covers her mouth with her hand and closes her eyes. Tori collapses on the chair.
+
+Peter, in patient’s robe, lies in bed. His face is a little pale and tired.
+Through the glass window on the other side of the room, Nicole is talking to the doctor outside.
+Tori sits next to his bed, holding his hands. She is worried and helpless.
+TORI: What do you mean you don’t want to do anything?
+PETER: You heard what the doctor said, this type of cancer doesn’t respond well to chemotherapeutic drugs.
+TORI: What about the other treatment they mentioned?
+PETER: 50% survival rate is basically nothing.
+TORI: What if there’s miracle?
+PETER: Miracles don’t usually happen, that’s what miracles mean.
+TORI: ...Do you not want to be with us?
+Peter holds Tori’s hand tighter.
+PETER: Of course I want to be with you, but I don’t want to get your hope up and disappoint you...I’ve been there, it was worse than not having any hope at all.
+TORI: But now it’s different than Grandma’s time period.
+PETER: Not a lot.
+TORI: Dad, please!
+PETER: Do you not remember what Grandma had looked like before she went through the treatment? And what happened to her afterwards?
+Tori lowers her head.
+TORI: I didn’t understand when she told me the inside of her bones hurt...
+PETER: Yeah, probably not worth it.
+TORI: Can you just...just do it for my sake? Please?
+Tori shakes Peter’s arm with anger. Peter touches Tori’s head.
+PETER: I am doing what’s best for you and your mom. You’ll understand when you grow up.
+TORI: Stop saying shit like that. It doesn’t even mean anything!
+NICOLE: Language.
+Nicole walks into the room.
+TORI: WHAT’S WRONG WITH YOU GUYS????
+Tori turns around and runs off.
+NICOLE: Tori!
+
+Tori is having lunch with Cameron. Although the fries are not bad today, she doesn’t seem to enjoy them. Cameron takes some fries from her plate.
+TORI: Hey!
+CAMERON: I’m sorry, you stopped eating so I grabbed some -
+TORI: No, I’ve got an idea.
+CAMERON: Okay...?
+TORI: What if I inject hope into my dad’s body?
+Cameron is alert. He looks a little nervous but Tori doesn’t know why.
+CAMERON: What do you mean inject? No...nobody has done that. I mean,
+TORI: The worst thing that might happen is that he has extra hope in his body, what’s wrong with that?
+CAMERON: Nothing...but..
+TORI: What?
+CAMERON: Nothing, where are you getting hope from?
+TORI: The bank, of course, we sneak into the bank, use the machine and reverse the process.
+CAMERON: And we steal the hope?
+TORI: Yes.
+CAMERON: I’m in.
+TORI: What? I didn’t ask you to join me.
+CAMERON: I said I’m in.
+Cameron downs his orange juice.
+
+
 ===
 title: health
 tags: 
 colorID: 0
-position: 581,433
+position: 1254,691
 ---
 <<set $backgroundIndex to 1>>
 Her dad only stays awake for a short time.
@@ -75,7 +213,7 @@ Her dad only stays awake for a short time.
 title: fame
 tags: 
 colorID: 0
-position: 913,268
+position: 1011,561
 ---
 <<set $backgroundIndex to 1>>
 Her dad wakes up and tells Tori he would like to see the Bank of Hope destroyed. 
@@ -87,7 +225,7 @@ Tori is confused because this is not any kind of hope.
 title: truth
 tags: 
 colorID: 6
-position: 898,706
+position: 978,828
 ---
 Choice – does Peter want hope of truth? 
 ->Yes – end game
@@ -102,4 +240,11 @@ Choice – does Peter want hope of truth?
         Tori understands that no matter what her mom or dad have done, they’re still her parents. 
         She gives Peter hope of forgiveness.
         Peter wakes up. -END-
+===
+title: End
+tags: 
+colorID: 0
+position: 265,280
+---
+Press R to replay.
 ===
