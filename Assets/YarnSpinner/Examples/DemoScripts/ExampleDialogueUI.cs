@@ -61,7 +61,7 @@ namespace Yarn.Unity.Example {
 
         /// How quickly to show the text, in seconds per character
         [Tooltip("How quickly to show the text, in seconds per character")]
-        public float textSpeed = 0.025f;
+        public float text = 0.025f;
 
         /// The buttons that let the user choose an option
         public List<Button> optionButtons;
@@ -92,8 +92,8 @@ namespace Yarn.Unity.Example {
         {
             // Show the text
             lineText.gameObject.SetActive (true);
-
-            if (textSpeed > 0.0f) {
+		
+            if (text > 0.0f) {
                 // Display the line one character at a time
                 var stringBuilder = new StringBuilder ();
 
@@ -102,15 +102,17 @@ namespace Yarn.Unity.Example {
 					lineText.text = stringBuilder.ToString ();
 					//Press any key for line to comepletely run 
 					if (Input.anyKeyDown) {
-						yield return new WaitForSeconds (0.00001f);
+						//original text speed for testing
+						//	yield return new WaitForSeconds (0.00001f);
+						yield return new WaitForSeconds (0.025f);
 						lineText.text = line.text;
 						break;
                 		
 					}
-					yield return new WaitForSeconds (textSpeed); 
+					yield return new WaitForSeconds (text); 
 				}
             } else {
-                // Display the line immediately if textSpeed == 0
+                // Display the line immediately if text == 0
                 lineText.text = line.text;
             }
 

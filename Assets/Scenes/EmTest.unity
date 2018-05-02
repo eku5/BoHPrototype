@@ -1410,8 +1410,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImages:
   - {fileID: 21300000, guid: 252f0bb4c747443c898668fa289b6408, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 29a69be3e53ba47b891f5b9ad6f45d6d, type: 3}
+  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
+  - {fileID: 21300000, guid: 23eb62b6efc9a4ef3a78c926ca8b590b, type: 3}
+  - {fileID: 21300000, guid: 0554f81b3f15c4241b934130c0efe422, type: 3}
+  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
+  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
+  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
+  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
+  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
   backgroundSr: {fileID: 824357205}
   variableStorage: {fileID: 1190012257}
   backgroundIndex: 0

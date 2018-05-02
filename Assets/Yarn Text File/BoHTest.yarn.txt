@@ -1,9 +1,11 @@
 title: Start
 tags: 
 colorID: 0
-position: 592,181
+position: 911,-128
 ---
 There are so many people here, maybe a little bit too many.
+<<set $backgroundIndex to 0>>
+<<set $soundIndex to 0>>
 Tori feels like she is at a market instead of a bank.
 She turns and glances at the people around her: In their eyes, some sorrow, some expectation. Why don’t they look very happy? Tori asks herself.
 There is a stage at the center of the lobby. A spotlight shines on a small potted tree in the corner of the stage.
@@ -40,7 +42,7 @@ NICOLE: I’d love to introduce my daughter Tori to you. She’ll be demonstrati
     ->One more minute...
     ->Yes.
     ->I don’t want to do this.
-->Tell everyone that you don’t want to.
+->Tell everyone that I don’t want to.
     TORI (to Nicole): I don’t want to do this.
     NICOLE: What are you talking about?
 Tori could hear people GOSSIP. They stare at her, judging. Tori gives in.
@@ -58,10 +60,54 @@ Tori stands up and looks at her own fingers. People take out phones and open the
 TORI: I feel alright.
 Nicole is a little relieved. People CLAP.
 TORI: Are you going to pay me now?
-The crowd LAUGHS, Nicole LAUGHS with them. Tori doesn’t.
+The crowd LAUGHS, Nicole LAUGHS with them. [[Tori doesn’t. |SchoolScene1]]
+===
+title: health
+tags: 
+colorID: 0
+position: 2482,1026
+---
+<<set $backgroundIndex to 1>>
+Her dad only stays awake for a short time.
+[[Tori talks to her mom to find out the truth.|truth]]
+===
+title: fame
+tags: 
+colorID: 0
+position: 2239,896
+---
+<<set $backgroundIndex to 1>>
+Her dad wakes up and tells Tori he would like to see the Bank of Hope destroyed. 
+He falls back to sleep again. 
+Tori is confused because this is not any kind of hope.
+[[Tori talks to her mom to find out the truth.|truth]]
 
-***Missing Beat- See Chapter 2 in the folder & change image here to school***
-
+===
+title: truth
+tags: 
+colorID: 6
+position: 2206,1163
+---
+Choice – does Peter want hope of truth? 
+->Yes – end game
+->No – continue
+    Tori decides to save the homeless people by stealing hope of safety. 
+    She gives it to them. They wake up but one of them triggers the siren.
+    The mom confronts Tori. Tori realizes that her dad left her mom because of this. 
+    Choice – forgive Sammy? 
+    ->No – end game. 
+    ->Yes – continue
+        <<set $backgroundIndex to 2>>
+        Tori understands that no matter what her mom or dad have done, they’re still her parents. 
+        She gives Peter hope of forgiveness.
+        Peter wakes up. -END-
+===
+title: SchoolScene1
+tags: 
+colorID: 0
+position: 912,157
+---
+<<set $backgroundIndex to 1>>
 This is the heaviest textbook Tori has ever seen. Tori tosses it into her locker.
 A hand taps on her shoulder. She turns back and sees -
 Cameron, cute, rebellious, long bangs almost cover his eyes.
@@ -85,9 +131,14 @@ TORI: Apparently it’s because of the bank. Come on, tell me.
 Cameron shakes his head.
 CAMERON: Don’t worry about it, I’ll see you in 6th period.
 Cameron checks his watch and walks off. Tori looks at his back, she doesn’t understand why Cameron is acting so weird.
-
-**Change image here to house**
-
+[[She goes home afterschool. |HouseScene1]]
+===
+title: HouseScene1
+tags: 
+colorID: 0
+position: 918,470
+---
+<<set $backgroundIndex to 2>>
 Tori, still has her backpack on, cranes her head in at the door and sees her dad PETER LEE (45) sleeping on his laptop. He has a long face and black stubble on his chin.
 The entire desk is piled with books and sketches. Silently fuming, Tori steps into the study.
 TORI: Dad, would you extract hope for money?
@@ -99,39 +150,42 @@ Tori leans to check on Peter. She shakes Peter’s shoulders.
 TORI: Dad?
 Peter slides off the chair and falls onto the floor.
 TORI: DAD!!!
-->Perform CPR.
-    Tori puts her hands on Peter’s chest and awkwardly presses. Peter frowns.
-    TORI: Dad! Please wake up...
-    Tori continues to put pressure on Peter’s chest but she has done no medical training. Peter’s face turns purple.
-    Tori watches Peter stops breathing. 
-    [[End Game.|End]]
-->Call Mom.
-    Tori pulls out her cell phone and calls Nicole.
-    NICOLE: Hello?
-    TORI: Dad is unconscious!
-    Nicole freezes for a second. When she speaks again, her voice shakes.
-    NICOLE: Okay, hang on, stay with your dad, I’m calling 911 now.
-    TORI: Okay...
-    NICOLE: Calm down, your dad needs you.
-->Call 911.
-Tori pulls out her cell phone number and dials 911. After a few seconds, someone picks up.
-->Help me! My dad is unconscious!
-    911: Please describe your emergency as concise as you can so that we can get to you as fast as possible.
-    TORI: My dad is lying on the floor!
-    911: Where do you live?
-    Sobbing, Tori tries to calm down and tells them the address.
-->This is Tori Lee, my dad is unconscious, here is our address.
-->*Crying*
-    911: Please describe your emergency as concise as you can so that we can get to you as fast as possible.
-    Peter’s face slowly turns purple.
-    TORI: Dad!!!
-    911: Miss, please -
-    TORI: I can’t...I can’t...
-    Peter dies.
-    [[End Game.|End]]
-Tori waits impatiently, she hears SIRENS. An ambulance stops in front of her house.
-<<set $soundIndex to 1>>
+[[Perform CPR.|CPR]]
+[[Call Mom.|CallMom]]
+[[Call 911.|911]]
 
+
+===
+title: cries
+tags: 
+colorID: 0
+position: 1618,594
+---
+911: Please describe your emergency as concise as you can so that we can get to you as fast as possible.
+Peter’s face slowly turns purple.
+TORI: Dad!!!
+911: Miss, please -
+TORI: I can’t...I can’t...
+Peter dies.
+[[Go back a scene. |911]]
+===
+title: CPR
+tags: 
+colorID: 0
+position: 487,534
+---
+Tori puts her hands on Peter’s chest and awkwardly presses. Peter frowns.
+TORI: Dad! Please wake up...
+Tori continues to put pressure on Peter’s chest but she has done no medical training. Peter’s face turns purple.
+Tori watches Peter stops breathing.
+[[Go back a scene. |HouseScene1]]
+===
+title: WaitingRoom1
+tags: 
+colorID: 0
+position: 534,1361
+---
+<<set $backgroundIndex to 3>>
 Outside a closed patient room, Tori sits on one of the chairs next to the wall alone, face buried in her hands.
 CLICK CLICK, Nicole appears at the end of the hallway with the sound of high heels. Tori looks up. Nicole strides to take Tori into her arms.
 TORI: This wouldn’t have happened if you guys stayed together.
@@ -148,8 +202,15 @@ NICOLE: Thank you!
 DOCTOR: However, we went through his test results, and the biopsy showed signs of large cell non-hodgkin's lymphoma.
 NICOLE: What is that?
 DOCTOR: It’s a form of cancer. And I’m afraid that we didn’t catch it very early.
-Nicole covers her mouth with her hand and closes her eyes. Tori collapses on the chair.
-
+Nicole covers her mouth with her hand and closes her eyes. 
+[[Tori collapses on the chair.|HospitalScene1]]
+===
+title: HospitalScene1
+tags: 
+colorID: 0
+position: 933,1522
+---
+<<set $backgroundIndex to 4>>
 Peter, in patient’s robe, lies in bed. His face is a little pale and tired.
 Through the glass window on the other side of the room, Nicole is talking to the doctor outside.
 Tori sits next to his bed, holding his hands. She is worried and helpless.
@@ -176,9 +237,15 @@ TORI: Stop saying shit like that. It doesn’t even mean anything!
 NICOLE: Language.
 Nicole walks into the room.
 TORI: WHAT’S WRONG WITH YOU GUYS????
-Tori turns around and runs off.
 NICOLE: Tori!
-
+[[Tori turns around and runs off.|SchoolScene2]]
+===
+title: SchoolScene2
+tags: 
+colorID: 0
+position: 526,1701
+---
+<<set $backgroundIndex to 1>>
 Tori is having lunch with Cameron. Although the fries are not bad today, she doesn’t seem to enjoy them. Cameron takes some fries from her plate.
 TORI: Hey!
 CAMERON: I’m sorry, you stopped eating so I grabbed some -
@@ -196,55 +263,305 @@ CAMERON: And we steal the hope?
 TORI: Yes.
 CAMERON: I’m in.
 TORI: What? I didn’t ask you to join me.
-CAMERON: I said I’m in.
 Cameron downs his orange juice.
+CAMERON: I said I’m in.
 
-
+[[They plan to sneak into the bank.|BoH1]]
 ===
-title: health
+title: 911
 tags: 
 colorID: 0
-position: 1254,691
+position: 856,771
 ---
-<<set $backgroundIndex to 1>>
-Her dad only stays awake for a short time.
-[[Tori talks to her mom to find out the truth.|truth]]
+Tori pulls out her cell phone number and dials 911. After a few seconds, someone picks up.
+[[Help me! My dad is unconscious!|unconscious]]
+[[This is Tori Lee, my dad is unconscious, here is our address.|sirens]]
+[[*Crying*|cries]]
 ===
-title: fame
+title: CallMom
 tags: 
 colorID: 0
-position: 1011,561
+position: 1236,527
 ---
-<<set $backgroundIndex to 1>>
-Her dad wakes up and tells Tori he would like to see the Bank of Hope destroyed. 
-He falls back to sleep again. 
-Tori is confused because this is not any kind of hope.
-[[Tori talks to her mom to find out the truth.|truth]]
+Tori pulls out her cell phone and calls Nicole.
+NICOLE: Hello?
+TORI: Dad is unconscious!
+Nicole freezes for a second. When she speaks again, her voice shakes.
+NICOLE: Okay, hang on, stay with your dad. Call 911 now.
+TORI: Okay...
+NICOLE: Calm down, your dad needs you.
+[[Tori calls 911.|911]]
+===
+title: unconscious
+tags: 
+colorID: 0
+position: 458,826
+---
+911: Please describe your emergency as concise as you can so that we can get to you as fast as possible.
+TORI: My dad is lying on the floor!
+911: Where do you live?
+[[Sobbing, Tori tries to calm down and tells them the address.|sirens]]
+===
+title: sirens
+tags: 
+colorID: 0
+position: 905,1173
+---
+Tori waits impatiently, she hears SIRENS.
+[[An ambulance stops in front of her house.|WaitingRoom1]]
+===
+title: BoH1
+tags: 
+colorID: 0
+position: 931,1871
+---
+Tori and Cameron, both wear hoodies, enter the bank. 
+They try to act normal and avoid eye contact with the guards. The guards don’t pay extra attention to them.
+They stop in front of a stairwell. Tori leans against the wall, looking around. 
+Meanwhile, a staff memeber walks towards them. She sees Tori and waves to her.
+
+->Say hi to the staff.
+    Tori smiles politely and waves to the staff.
+    STAFF: Aren’t you Nicole’s daughter? You did an excellent job on the first day. Are you looking for Nicole?
+    ->TORI: Yes.
+        STAFF: Oh, she’s right in her office, do you wanna follow me?
+        Tori mouths to Cameron: “Wait here”. She walks off with the staff.
+        The staff member is about to turn right, this is a good chance to escape.
+        TORI: I’m sorry, I need to use the bathroom so bad, I’ll find my mom on my own thank you very much bye.
+        She runs off.
+    ->TORI: No, I’m just chilling. Please don’t mind me.
+        The staff members’s eyes dart between Tori and Cameron. 
+        She gets it, Cameron is probably Tori’s crush. What a cute couple, she thinks.
+        STAFF: Oh, okay, enjoy!
+        TORI: Thanks.
+        The staff memeber leaves.
+->Lower your head.
+    Tori lowers her head, staff looks at Tori for a bit, confused. 
+    But she turns around, walks straight past them and disappears.
+->Walk away from the stairwell.
+    Tori walks away from the stairwell, she wanders in the lobby until the staff walks past Cameron.
+    CAMERON: She’s gone.
+    Tori goes back to Cameron.
+[[Tori and Cameron enter the stairwell.|Stair1]]
+
 
 ===
-title: truth
+title: Stair1
 tags: 
-colorID: 6
-position: 978,828
+colorID: 0
+position: 538,2075
 ---
-Choice – does Peter want hope of truth? 
-->Yes – end game
-->No – continue
-    Tori decides to save the homeless people by stealing hope of safety. 
-    She gives it to them. They wake up but one of them triggers the siren.
-    The mom confronts Tori. Tori realizes that her dad left her mom because of this. 
-    Choice – forgive Sammy? 
-    ->No – end game. 
-    ->Yes – continue
-        <<set $backgroundIndex to 2>>
-        Tori understands that no matter what her mom or dad have done, they’re still her parents. 
-        She gives Peter hope of forgiveness.
-        Peter wakes up. -END-
+Tori listens to a janitor’s footsteps. The janitor walks away from the stairwell.
+TORI: Okay, the janitor’s gone, now the guard will come and check the stairwells.
+Tori opens the lid of the recycling bin. Cameron glances at the food waste bin next to the recycling bin. 
+He frowns.
+TORI: What’s wrong?
+CAMERON: I’ll take that one.
+TORI: Are you sure? No, I dragged you into this, I don’t want you to -
+CAMERON: It’s fine, your hoodie looks nicer.
+TORI: No...
+Cameron opens the lid and jumps into the food waste bin.
+TORI: Cameron!
+CAMERON: Shh, it’s actually not bad in here.
+Tori feels bad, but she has no choice but to hide into the recycling bin.
+TORI: I owe you ice cream.
+They wait in the bins. 
+[[Time passes...|Storage1]]
+===
+title: Storage1
+tags: 
+colorID: 0
+position: 935,2261
+---
+The bank is now completely dark. Tori and Cameron enter the storage. It’s quiet, very quiet.
+TORI: This is it.
+CAMERON: Yes. And I’m sorry if I smell bad.
+TORI: You smell a little bit like a canned tuna but I’m actually kinda hungry.
+CAMERON: Are you serious...
+Tori uses her flashlight to lighten up the storage. There is a very big crystal globe in the middle of the room. 
+Tori approaches it, she opens her mouth and GASPS -
+TORI: Cameron!
+CAMERON: What’s going on? The crystal globe is empty.
+TORI: Why is the storage empty?
+To Tori’s surprise, Cameron seems very angry.
+CAMERON: There is no hope left in the storage?! They took it all????
+TORI: Who took it?
+CAMERON: No, sorry, nothing.
+TORI: You know something about it, don’t you? Is that why you really wanted to come with me?
+CAMERON: No, I don’t.
+TORI: Cameron. I need you to tell me what you know.
+CAMERON: I’m sorry Tori, I...I can’t.
+Cameron turns around and leaves the room.
+TORI: Cameron!
+[[After school, Tori decides to follow Cameron.|School2]]
+===
+title: School2
+tags: 
+colorID: 0
+position: 547,2464
+---
+Tori follows Cameron to an abandoned school. Now she’s standing in a dark, long school hall way. 
+The classroom doors are shut. The walls look worn out and old.
+Tori shivers. Where did Cameron go?
+CRACK! 
+A door opens at the end of the hallway. Tori GASPS. Cameron hears Tori’s voice, hesitates and walks towards her. 
+Tori leans against the wall, holding her breath.
+LAURA, Cameron’s mom, stops him.
+LAURA (to Cameron): Where are you going? People are waiting, I need your help, please.
+Still staring at where Tori is, Cameron reluctantly follows Laura into a classroom.
+Tori waits, and goes to the classroom.
+Tori widens her eyes. A small group of people sit at the desks, wearing the same head bands that Tori saw at the Bank of Hope. 
+On the desks, the yellow gas inside the crystal balls is shrinking and eventually disappears.
+The people open their eyes. They stand up, dance and LAUGH hysterically.
+Cameron and Laura help the people take off the head bands. Tori can’t believe what she’s seeing.
+One of the people takes out his wallet and pulls out several hundred dollar bills and hands them to Cameron.
+Expressionless, Cameron takes the money. Tori is thunderstruck.
+[[Maybe hope is bad.|Storage2]]
+[[Maybe hope is good.|Purchase1]]
+===
+title: Storage2
+tags: 
+colorID: 0
+position: 161,2835
+---
+"I’m going to extract my own hope," Tori thinks as she enters the storage.
+"Dad will feel how I feel, he will know how much I want him to be healthy."
+She puts on the head band in darkness and presses a button. She closes her eyes.
+Suddenly, Nicole storms in.
+NICOLE: What are you doing here?
+TORI: Mom?
+Nicole forces Tori to take off the head band. Tori struggles.
+NICOLE: This is not a toy. Who told you to come here?
+TORI: Mom, have you been giving hope to people? And...they sell it?
+Nicole is taken aback.
+NICOLE: No, Tori.
+TORI: She knows you. And she knows my name.
+Nicole lowers her head.
+NICOLE: It was the CEO’s decision, not mine.
+TORI: And you didn’t say anything about it?
+NICOLE: I can’t. Tori, you don’t understand.
+TORI: The hope you’ve been giving to them doesn’t even work! I gave it to dad and he just...became weird. He couldn’t recognize me.
+Nicole grabs Tori’s shoulders.
+NICOLE: You did what?
+TORI: I wanted dad to get the treatment...
+NICOLE: Of course it doesn’t work. Hope is bad! Everyone only hopes for themselves, can’t you see?
+TORI: I don’t only hope for myself.
+NICOLE: You hope that dad is healthy so he could be with you.
+TORI: Yeah...that’s true.
+NICOLE: Hope is selfish.
+[[Tori slowly nods and takes off the head band.|Hospital3a]]
+[[Wrong!|Storage3]]
+
+
+ 
+===
+title: Purchase1
+tags: 
+colorID: 0
+position: 899,2692
+---
+Tori enters the classroom.
+TORI: How much is hope?
+Cameron sees her, astonished. Laura notices Cameron’s reaction.
+LAURA: Is this your friend? How could you--
+Cameron stutters.
+TORI: I followed him, it’s not his fault.
+CAMERON: Tori, I’ll explain later. You should go home.
+LAURA: Tori? You must be Nicole’s daughter.
+TORI: You know my mom?
+CAMERON: Tori, you can’t be here.
+[[LAURA: Why not? She needs hope, we’ll sell her some hope.|Hospital2]]
+===
+title: Hospital2
+tags: 
+colorID: 0
+position: 555,2827
+---
+Tori cheerfully enters the room, HUMMING. Peter lies on the bed. 
+Tori throws her backpack on the floor and goes to Peter. She puts the head band on Peter’s head and clicks on the remote.
+TORI: This will make you feel really good.
+PETER: What are you --
+TORI: You’ll like it.
+Peter can’t resist but closes his eyes as hope goes into his brain.
+Peter’s eyes become distracted. A smile appears on his face.
+PETER: I feel really good.
+TORI: Wow! It’s working!
+Peter jumps out of bed, wonders around and poses as if there are cameras around him.
+PETER: I’d like to...thank myself for working so hard. I think I...deserve this honor. No, I don’t think I need support from other peope, thank you.
+TORI: Dad?
+Peter sees Tori, confused.
+PETER: I didn’t know child stars were nominated.
+TORI: Dad, what are you talking about?
+PETER: Dad? Sorry, that’s not very respectful. I’m single.
+TORI: Would you get the treatment now?
+PETER: Um, where’s your family, kid? Can I help you?
+Peter suddenly freezes and stops walking. 
+Joy disappears from his face and is replaced by seriousness.
+PETER: What was that, Tori?
+Tori seems lost.
+TORI: You remember me now?
+PETER: What have you done? I tried so hard to come back to reality.
+TORI: I’m sorry, I just wanted to --
+PETER: That’s not I want, Tori.
+Tori knits her brows together. 
+[[What’s wrong with hope?|Storage2]]
+===
+title: Hospital3a
+tags: 
+colorID: 0
+position: -193,2961
+---
+Tori watches Peter as he sleeps.
+TORI: I’m sorry, dad.
+[[Go back a scene.|Storage2]]
+===
+title: Storage3
+tags: 
+colorID: 0
+position: 216,3150
+---
+TORI: Wrong! I’ll prove it!
+Tori puts the head band back on and starts the process. 
+[[Yellow gas starts to appear...|Hospital3b]]
+===
+title: Hospital3b
+tags: 
+colorID: 0
+position: -492,2760
+---
+Tori and Nicole wait impatiently as Peter wears the head band and closes his eyes.
+TORI: It’s my hope, dad.
+Peter smiles.
+PETER: I know, honey.
+BEEP! 
+He presses the start button and leans back. Tori waits...
+Peter looks peaceful. Nicole holds Tori’s hands.
+...
+...
+The yellow gas is gone, Peter opens his eyes. His eyes redden and become moist.
+He takes Tori into his arms.
+PETER: I’m sorry for making you worry about me.
+Tears roll down Tori’s cheeks.
+TORI: It’s okay daddy. I just want the best of you.
+PETER: I want to stay with the best thing in my life as long as possible.
+Tori is taken aback but she smiles.
+TORI: Eww. I’m not a thing.
+PETER: You know what I mean.
+TORI: So...can you do me a favor?
+Peter jokingly bows his head.
+PETER: At your service.
+TORI: Would you get the treatment? I know the chances are small, but it’s worth trying, isn’t it?
+Peter ponders.
+PETER: Yes. I think I can make it.
+Tori smiles.
+"So hope could be selfless," Tori thinks. "But you really have gotta try."
+[[END|End]]
 ===
 title: End
 tags: 
 colorID: 0
-position: 265,280
+position: -688,1069
 ---
-Press R to replay.
+A game by Shikong Chen, Shak’ar Mujukian, Rita Ren, & Emperatriz Ung.
+[[Thank you for playing! Play from the start.|Start]]
 ===

@@ -34,7 +34,7 @@ namespace Yarn.Unity.Example {
         public float minPosition = -5.3f;
         public float maxPosition = 5.3f;
 
-        public float moveSpeed = 1.0f;
+        public float move = 1.0f;
 
         public float interactionRadius = 2.0f;
 
@@ -63,7 +63,7 @@ namespace Yarn.Unity.Example {
             // of the level.
             var movement = Input.GetAxis("Horizontal");
             movement += movementFromButtons;
-            movement *= (moveSpeed * Time.deltaTime);
+            movement *= (move * Time.deltaTime);
 
             var newPosition = transform.position;
             newPosition.x += movement;

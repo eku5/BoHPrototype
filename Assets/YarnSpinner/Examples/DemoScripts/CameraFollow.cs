@@ -31,7 +31,7 @@ namespace Yarn.Unity.Example {
 
     /// Control the position of the camera and its behaviour
     /** Camera should have minPosition and maxPosition of the
-     * same because we're dealing with 2D. The movement speed
+     * same because we're dealing with 2D. The movement 
      * shouldn't be too fast nor too slow
      */
     public class CameraFollow : MonoBehaviour {
@@ -45,15 +45,15 @@ namespace Yarn.Unity.Example {
         /// Maximum position of camera
         public float maxPosition = 5.3f;
 
-        /// Movement speed of camera
-        public float moveSpeed = 1.0f;
+        /// Movement  of camera
+        public float move = 1.0f;
 
         // Update is called once per frame
         void Update () {
             if (target == null) {
                 return;
             }
-            var newPosition = Vector3.Lerp(transform.position, target.position, moveSpeed * Time.deltaTime);
+            var newPosition = Vector3.Lerp(transform.position, target.position, move * Time.deltaTime);
 
             newPosition.x = Mathf.Clamp(newPosition.x, minPosition, maxPosition);
             newPosition.y = transform.position.y;
