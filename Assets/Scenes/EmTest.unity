@@ -1061,7 +1061,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 252f0bb4c747443c898668fa289b6408, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 11285e364133e4fbf8aa42e1d6e8bd1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1078,8 +1078,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 824357204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.016, z: 0}
-  m_LocalScale: {x: 1.566331, y: 1.566331, z: 3.132662}
+  m_LocalPosition: {x: -1.33, y: -0.77, z: 0}
+  m_LocalScale: {x: 1.9692867, y: 1.9623497, z: 3.9246993}
   m_Children: []
   m_Father: {fileID: 1470082987}
   m_RootOrder: 0
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   dialogueContainer: {fileID: 299784601}
   lineText: {fileID: 1983150901}
   continuePrompt: {fileID: 0}
-  textSpeed: 0.001
+  text: 0.025
   optionButtons:
   - {fileID: 191075521}
   - {fileID: 1680405634}
@@ -1391,7 +1391,7 @@ Transform:
   m_GameObject: {fileID: 1470082986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.969287, y: 1.969287, z: 1}
   m_Children:
   - {fileID: 824357206}
   m_Father: {fileID: 0}
@@ -1414,11 +1414,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
   - {fileID: 21300000, guid: 23eb62b6efc9a4ef3a78c926ca8b590b, type: 3}
   - {fileID: 21300000, guid: 0554f81b3f15c4241b934130c0efe422, type: 3}
-  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
-  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
-  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
-  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
-  - {fileID: 21300000, guid: 62080b689ece141d5a46003a946df72f, type: 3}
+  - {fileID: 21300000, guid: 46e2cd98fcaf24963b8403c06eb7edc2, type: 3}
+  - {fileID: 21300000, guid: 7bf631af9fa7a4b229b795ed580fd1cb, type: 3}
+  - {fileID: 21300000, guid: 22f6e77391f264209951f714c10e1a64, type: 3}
+  - {fileID: 21300000, guid: 11285e364133e4fbf8aa42e1d6e8bd1d, type: 3}
+  - {fileID: 0}
   backgroundSr: {fileID: 824357205}
   variableStorage: {fileID: 1190012257}
   backgroundIndex: 0
