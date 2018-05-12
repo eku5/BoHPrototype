@@ -1078,8 +1078,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 824357204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.33, y: -0.77, z: 0}
-  m_LocalScale: {x: 1.9692867, y: 1.9623497, z: 3.9246993}
+  m_LocalPosition: {x: 0.107, y: 0.343, z: 0}
+  m_LocalScale: {x: 1.444428, y: 1.4393399, z: 2.8786798}
   m_Children: []
   m_Father: {fileID: 1470082987}
   m_RootOrder: 0
@@ -1418,7 +1418,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7bf631af9fa7a4b229b795ed580fd1cb, type: 3}
   - {fileID: 21300000, guid: 22f6e77391f264209951f714c10e1a64, type: 3}
   - {fileID: 21300000, guid: 11285e364133e4fbf8aa42e1d6e8bd1d, type: 3}
-  - {fileID: 0}
   backgroundSr: {fileID: 824357205}
   variableStorage: {fileID: 1190012257}
   backgroundIndex: 0
@@ -1711,8 +1710,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSound:
-  - {fileID: 8300000, guid: 89136e779fc324f6b92f792870cd7374, type: 3}
-  - {fileID: 8300000, guid: d97d9d7dec2d84e29ae28f7a13310950, type: 3}
+  - {fileID: 8300000, guid: 252cec99afa9e4da78118148bbd6e799, type: 3}
+  - {fileID: 8300000, guid: c79a4c1d6f68b471fad8d8b376b8f928, type: 3}
+  - {fileID: 8300000, guid: 1ced7b42df8ab4352b029bd0c3b1dd88, type: 3}
+  - {fileID: 8300000, guid: 3cfa553d186d74f5cbcb863eeb393ee8, type: 3}
+  - {fileID: 8300000, guid: 083c4f9d600294601ac9039200b30729, type: 3}
+  - {fileID: 8300000, guid: 5442f927f834846b6b274bd61d1205e6, type: 3}
+  - {fileID: 8300000, guid: 61735c1437c804c81b835295e17cdfdb, type: 3}
+  - {fileID: 8300000, guid: f37a89bee490d463ebfc20c7f87d5896, type: 3}
+  - {fileID: 8300000, guid: f2d6134d80f1e4a27865445eee42597a, type: 3}
+  - {fileID: 8300000, guid: 6c51a33f5084a4cb8832f3aebce2f5f2, type: 3}
+  - {fileID: 8300000, guid: 452fa19dd9e864ede89fdfc9a8696211, type: 3}
+  - {fileID: 8300000, guid: 4f3333a641bb2402ab363f79b1e63dd1, type: 3}
+  - {fileID: 8300000, guid: 7bf45937add614019b76e3d44002927e, type: 3}
+  - {fileID: 8300000, guid: 6c520f7c9715244e6b976c82d8e7a330, type: 3}
+  - {fileID: 8300000, guid: cd2ef2f9dbe9c4af4b8b7635f216d716, type: 3}
+  - {fileID: 8300000, guid: 91da55cffd56b4a3cabc95544d16ed40, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   backgroundSounds: {fileID: 0}
@@ -1729,7 +1744,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 89136e779fc324f6b92f792870cd7374, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

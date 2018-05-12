@@ -4,7 +4,9 @@ colorID: 6
 position: 911,-858
 ---
 <<set $backgroundIndex to 8>>
+<<set $soundIndex to 0>>
 BANK OF HOPE
+by Shikong Chen, Shak’ar Mujukian, Rita Ren, & Emperatriz Ung
 [[An Interactive Screenplay|Intro]]
 ===
 title: health
@@ -53,10 +55,13 @@ colorID: 0
 position: 912,157
 ---
 <<set $backgroundIndex to 1>>
+<<set $soundIndex to 7>>
 This is the heaviest textbook Tori has ever seen. Tori tosses it into her locker.
 A hand taps on her shoulder. She turns back and sees -
-Cameron, cute, rebellious, long bangs almost cover his eyes.
-TORI: Jesus, you scared me.
+Cameron, cute, rebellious, long bangs almost cover his eyes. 
+Tori: Jesus, you scared me.
+Cameron stares at her with his green eyes but doesn't say anything. 
+Oh, Tori would love to see his cute face every day, or even better, stroke his cheeks...
 CAMERON: How was it?
 Tori realizes what Cameron is asking and pretends to be cool.
 TORI: What? Oh, the bank?
@@ -75,7 +80,8 @@ CAMERON: It’s...sorry, it’s personal.
 TORI: Apparently it’s because of the bank. Come on, tell me.
 Cameron shakes his head.
 CAMERON: Don’t worry about it, I’ll see you in 6th period.
-Cameron checks his watch and walks off. Tori looks at his back, she doesn’t understand why Cameron is acting so weird.
+Tori: Wait...
+Cameron checks his watch and walks off. Tori looks at his back, "personal"? What can't she know? Tori doesn’t understand why Cameron is acting so weird.
 [[She goes home afterschool. |HouseScene1]]
 ===
 title: HouseScene1
@@ -84,8 +90,10 @@ colorID: 0
 position: 918,470
 ---
 <<set $backgroundIndex to 2>>
+<<set $soundIndex to 8>>
 Tori, still has her backpack on, cranes her head in at the door and sees her dad PETER LEE (45) sleeping on his laptop. He has a long face and black stubble on his chin.
 The entire desk is piled with books and sketches. Silently fuming, Tori steps into the study.
+Something in the air feels weird. Maybe it's the absence of the smell of coffee, or maybe it's the quietness.
 TORI: Dad, would you extract hope for money?
 Peter doesn’t wake up.
 TORI: Dad? I’ve been thinking about it. I mean, I get it that some people might think they don’t need hope.
@@ -131,7 +139,10 @@ colorID: 0
 position: 534,1361
 ---
 <<set $backgroundIndex to 3>>
+<<set $soundIndex to 10>>
 Outside a closed patient room, Tori sits on one of the chairs next to the wall alone, face buried in her hands.
+She always hates hospitals the the smell of medicine. She hates the despair and the endless wait.
+<<set $soundIndex to 2>>
 CLICK CLICK, Nicole appears at the end of the hallway with the sound of high heels. Tori looks up. Nicole strides to take Tori into her arms.
 TORI: This wouldn’t have happened if you guys stayed together.
 NICOLE: I...
@@ -147,7 +158,8 @@ NICOLE: Thank you!
 DOCTOR: However, we went through his test results, and the biopsy showed signs of large cell non-hodgkin's lymphoma.
 NICOLE: What is that?
 DOCTOR: It’s a form of cancer. And I’m afraid that we didn’t catch it very early.
-Nicole covers her mouth with her hand and closes her eyes. 
+Nicole covers her mouth with her hand and closes her eyes. Tori can't believe what's happening to her and her family. This feels like a movie, she thinks.
+She sees tears rolling down Nicole's cheeks. Everything seems surreal. 
 [[Tori collapses on the chair.|HospitalScene1]]
 ===
 title: HospitalScene1
@@ -158,7 +170,10 @@ position: 933,1522
 <<set $backgroundIndex to 4>>
 Peter, in patient’s robe, lies in bed. His face is a little pale and tired.
 Through the glass window on the other side of the room, Nicole is talking to the doctor outside.
-Tori sits next to his bed, holding his hands. She is worried and helpless.
+Tori sits next to his bed, holding his hands. 
+Peter has always been strong and healthy. Aren't dads always healthy? But now he looks weak and tired. Tori wants to lean on his shoulders, 
+like what she used to do when bad things happened. But she can't anymore.
+Tori takes a deep breath and tries to put herself together.
 TORI: What do you mean you don’t want to do anything?
 PETER: You heard what the doctor said, this type of cancer doesn’t respond well to chemotherapeutic drugs.
 TORI: What about the other treatment they mentioned?
@@ -191,6 +206,7 @@ colorID: 0
 position: 526,1701
 ---
 <<set $backgroundIndex to 1>>
+<<set $soundIndex to 11>>
 Tori is having lunch with Cameron. Although the fries are not bad today, she doesn’t seem to enjoy them. Cameron takes some fries from her plate.
 TORI: Hey!
 CAMERON: I’m sorry, you stopped eating so I grabbed some -
@@ -210,6 +226,7 @@ CAMERON: I’m in.
 TORI: What? I didn’t ask you to join me.
 Cameron downs his orange juice.
 CAMERON: I said I’m in.
+<<set $soundIndex to 0>>
 
 [[They plan to sneak into the bank.|BoH1]]
 ===
@@ -218,7 +235,9 @@ tags:
 colorID: 0
 position: 856,771
 ---
-Tori pulls out her cell phone number and dials 911. After a few seconds, someone picks up.
+Tori pulls out her cell phone number and dials 911. 
+<<set $soundIndex to 9>>
+After a few seconds, someone picks up.
 [[Help me! My dad is unconscious!|unconscious]]
 [[This is Tori Lee, my dad is unconscious, here is our address.|sirens]]
 [[*Crying*|cries]]
@@ -229,6 +248,7 @@ colorID: 0
 position: 1236,527
 ---
 Tori pulls out her cell phone and calls Nicole.
+<<set $soundIndex to 9>>
 NICOLE: Hello?
 TORI: Dad is unconscious!
 Nicole freezes for a second. When she speaks again, her voice shakes.
@@ -261,6 +281,7 @@ colorID: 0
 position: 931,1871
 ---
 <<set $backgroundIndex to 0>>
+<<set $soundIndex to 12>>
 Tori and Cameron, both wear hoodies, enter the bank. 
 They try to act normal and avoid eye contact with the guards. The guards don’t pay extra attention to them.
 They stop in front of a stairwell. Tori leans against the wall, looking around. 
@@ -298,7 +319,9 @@ colorID: 0
 position: 538,2075
 ---
 <<set $backgroundIndex to 5>>
+<<set $soundIndex to 13>>
 Tori listens to a janitor’s footsteps. The janitor walks away from the stairwell.
+<<set $soundIndex to 14>>
 TORI: Okay, the janitor’s gone, now the guard will come and check the stairwells.
 Tori opens the lid of the recycling bin. Cameron glances at the food waste bin next to the recycling bin. 
 He frowns.
@@ -349,6 +372,7 @@ colorID: 0
 position: 547,2464
 ---
 <<set $backgroundIndex to 7>>
+<<set $soundIndex to 15>>
 Tori follows Cameron to an abandoned school. Now she’s standing in a dark, long school hall way. 
 The classroom doors are shut. The walls look worn out and old.
 Tori shivers. Where did Cameron go?
@@ -460,7 +484,7 @@ Tori knits her brows together.
 title: Hospital3a
 tags: 
 colorID: 0
-position: -193,2961
+position: -183,2706
 ---
 <<set $backgroundIndex to 4>>
 Tori watches Peter as he sleeps.
@@ -473,7 +497,9 @@ colorID: 0
 position: 216,3150
 ---
 TORI: Wrong! I’ll prove it!
-Tori puts the head band back on and starts the process. 
+<<set $soundIndex to 5>>
+Tori puts the head band back on and starts the process.
+<<set $soundIndex to 6>>
 [[Yellow gas starts to appear...|Hospital3b]]
 ===
 title: Hospital3b
@@ -482,7 +508,9 @@ colorID: 0
 position: -492,2760
 ---
 <<set $backgroundIndex to 4>>
+<<set $soundIndex to 5>>
 Tori and Nicole wait impatiently as Peter wears the head band and closes his eyes.
+<<set $soundIndex to 6>>
 TORI: It’s my hope, dad.
 Peter smiles.
 PETER: I know, honey.
@@ -507,6 +535,7 @@ TORI: Would you get the treatment? I know the chances are small, but it’s wort
 Peter ponders.
 PETER: Yes. I think I can make it.
 Tori smiles.
+<<set $soundIndex to 0>>
 "So hope could be selfless," Tori thinks. "But you really have gotta try."
 [[END|End]]
 ===
@@ -516,7 +545,10 @@ colorID: 0
 position: -688,1069
 ---
 <<set $backgroundIndex to 8>>
-A game by Shikong Chen, Shak’ar Mujukian, Rita Ren, & Emperatriz Ung.
+Narrative Design by Rita Ren
+Programming by Emperatriz Ung
+Art by Shak’ar Mujukian
+Sound Design by Shikong Chen
 [[Thank you for playing! Play from the start.|Start]]
 ===
 title: Intro
@@ -525,14 +557,17 @@ colorID: 0
 position: 900,-441
 ---
 <<set $backgroundIndex to 0>>
+<<set $soundIndex to 1>>
 There are so many people here, maybe a little bit too many.
-<<set $soundIndex to 0>>
 Tori feels like she is at a market instead of a bank.
 She turns and glances at the people around her: In their eyes, some sorrow, some expectation. Why don’t they look very happy? Tori asks herself.
 There is a stage at the center of the lobby. A spotlight shines on a small potted tree in the corner of the stage.
 Nicole stands on the stage. She's charismatic and modern. The sight calls to mind a Steve Jobs product launch or Gwyneth Paltrow delivering a TED talk.
+<<set $soundIndex to 2>>
 NICOLE (to crowd): So, is everyone ready to get rid of some hope?
-She waits. Some people CHEER.
+She waits. 
+<<set $soundIndex to 4>>
+Some people CHEER.
 NICOLE (to crowd): I assume you came here because you all agree with me - hope is selfish and often causes false expectation? Stay present, worry free, stop thinking and hoping about the future!
 People clap.
 NICOLE: I’m honored to introduce our service to all of you. This is the first branch of Bank of Hope worldwide!
@@ -543,7 +578,7 @@ Tori frowns.
     The world would be much simpler if we just do the work we ought to do.
 ->What? Hope is a good thing to have. Why would people do this?
 
-Around 20 citrine yellow linen armchairs stand in rows, facing the glass doom window. In front of each armchair is a small table similar to the size of a night stand.
+Around 20 citrine yellow linen armchairs stand in rows, facing the glass dome window. In front of each armchair is a small table similar to the size of a night stand.
 On each of the night stand is a minimalist adjustable head band and an empty crystal ball.
 Nicole leads the group to the center of the room. 
 She looks for Tori but Tori tries to hide herself behind another person.
@@ -554,12 +589,6 @@ NICOLE: I’d love to introduce my daughter Tori to you. She’ll be demonstrati
     NICOLE: Where are you going? You promised.
 ->Okay...I guess I’ll do it...
     - Tori reluctantly nods and follows her. She sits on an armchair.
-    Nicole helps Tori to wear a head band.
-    People lean forward to have a better look at the crystal ball. 
-    Some people take pictures.
-    She connects the crystal ball to the head band. 
-    The front of the head band lightens up with an indicator.
-    NICOLE (to Tori): Ready?
     ->One more minute...
     ->Yes.
     ->I don’t want to do this.
@@ -569,9 +598,20 @@ NICOLE: I’d love to introduce my daughter Tori to you. She’ll be demonstrati
 Tori could hear people GOSSIP. They stare at her, judging. Tori gives in.
 TORI: Sorry, I’m a little scared.
 NICOLE: You’re going to be fine, sweet pea.
+<<set $soundIndex to 5>>
+Nicole helps Tori to wear a head band.
+
+People lean forward to have a better look at the crystal ball.
+
+Some people take pictures.
+
+She connects the crystal ball to the head band. 
+The front of the head band lightens up with an indicator.
+NICOLE (to Tori): Ready?
 TORI: Okay, I’m ready.
+<<set $soundIndex to 6>>
 Nicole presses a button on the controller attached to the armrest. The armchair leans back. Tori closes her eyes.
-Some yellow gas appears in the crystal ball. Tori’s face twitches. Stop it! That’s enough! She thinks.
+Some yellow gas appears in the crystal ball. Tori’s face twitches. She feels lost and empty, like someone who has been hold onto her just disappeared. Stop it! That’s enough! She thinks.
 But Nicole is looking at the yellow gas, amazed. Tori tries to open her eyes but she is paralyzed. Tori is about to lose conscious. Darkness...
 Beep.
 Nicole finally pushes the button on the controller but it’s too late -
