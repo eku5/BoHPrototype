@@ -168,6 +168,7 @@ colorID: 0
 position: 933,1522
 ---
 <<set $backgroundIndex to 4>>
+<<set $soundIndex to 19>>
 Peter, in patient’s robe, lies in bed. His face is a little pale and tired.
 Through the glass window on the other side of the room, Nicole is talking to the doctor outside.
 Tori sits next to his bed, holding his hands. 
@@ -226,7 +227,6 @@ CAMERON: I’m in.
 TORI: What? I didn’t ask you to join me.
 Cameron downs his orange juice.
 CAMERON: I said I’m in.
-<<set $soundIndex to 0>>
 
 [[They plan to sneak into the bank.|BoH1]]
 ===
@@ -272,7 +272,9 @@ tags:
 colorID: 0
 position: 905,1173
 ---
+<<set $soundIndex to 17>>
 Tori waits impatiently, she hears SIRENS.
+
 [[An ambulance stops in front of her house.|WaitingRoom1]]
 ===
 title: BoH1
@@ -349,6 +351,7 @@ TORI: This is it.
 CAMERON: Yes. And I’m sorry if I smell bad.
 TORI: You smell a little bit like a canned tuna but I’m actually kinda hungry.
 CAMERON: Are you serious...
+<<set $soundIndex to 20>>
 Tori uses her flashlight to lighten up the storage. There is a very big crystal globe in the middle of the room. 
 Tori approaches it, she opens her mouth and GASPS -
 TORI: Cameron!
@@ -376,6 +379,7 @@ position: 547,2464
 Tori follows Cameron to an abandoned school. Now she’s standing in a dark, long school hall way. 
 The classroom doors are shut. The walls look worn out and old.
 Tori shivers. Where did Cameron go?
+<<set $soundIndex to 8>>
 CRACK! 
 A door opens at the end of the hallway. Tori GASPS. Cameron hears Tori’s voice, hesitates and walks towards her. 
 Tori leans against the wall, holding her breath.
@@ -400,6 +404,7 @@ position: 161,2835
 <<set $backgroundIndex to 6>>
 "I’m going to extract my own hope," Tori thinks as she enters the storage.
 "Dad will feel how I feel, he will know how much I want him to be healthy."
+<<set $soundIndex to 5>>
 She puts on the head band in darkness and presses a button. She closes her eyes.
 Suddenly, Nicole storms in.
 NICOLE: What are you doing here?
@@ -452,13 +457,18 @@ colorID: 0
 position: 555,2827
 ---
 <<set $backgroundIndex to 4>>
+<<set $soundIndex to 19>>
 Tori cheerfully enters the room, HUMMING. Peter lies on the bed. 
-Tori throws her backpack on the floor and goes to Peter. She puts the head band on Peter’s head and clicks on the remote.
+Tori throws her backpack on the floor and goes to Peter. 
+<<set $soundIndex to 5>>
+She puts the head band on Peter’s head and clicks on the remote.
 TORI: This will make you feel really good.
 PETER: What are you --
 TORI: You’ll like it.
+<<set $soundIndex to 6>>
 Peter can’t resist but closes his eyes as hope goes into his brain.
 Peter’s eyes become distracted. A smile appears on his face.
+<<set $soundIndex to 16>>
 PETER: I feel really good.
 TORI: Wow! It’s working!
 Peter jumps out of bed, wonders around and poses as if there are cameras around him.
@@ -487,6 +497,7 @@ colorID: 0
 position: -183,2706
 ---
 <<set $backgroundIndex to 4>>
+<<set $soundIndex to 19>>
 Tori watches Peter as he sleeps.
 TORI: I’m sorry, dad.
 [[Go back a scene.|Storage2]]
@@ -514,6 +525,7 @@ Tori and Nicole wait impatiently as Peter wears the head band and closes his eye
 TORI: It’s my hope, dad.
 Peter smiles.
 PETER: I know, honey.
+<<set $soundIndex to 16>>
 BEEP! 
 He presses the start button and leans back. Tori waits...
 Peter looks peaceful. Nicole holds Tori’s hands.
@@ -521,6 +533,7 @@ Peter looks peaceful. Nicole holds Tori’s hands.
 ...
 The yellow gas is gone, Peter opens his eyes. His eyes redden and become moist.
 He takes Tori into his arms.
+<<set $soundIndex to 19>>
 PETER: I’m sorry for making you worry about me.
 Tears roll down Tori’s cheeks.
 TORI: It’s okay daddy. I just want the best of you.
@@ -613,14 +626,16 @@ TORI: Okay, I’m ready.
 Nicole presses a button on the controller attached to the armrest. The armchair leans back. Tori closes her eyes.
 Some yellow gas appears in the crystal ball. Tori’s face twitches. She feels lost and empty, like someone who has been hold onto her just disappeared. Stop it! That’s enough! She thinks.
 But Nicole is looking at the yellow gas, amazed. Tori tries to open her eyes but she is paralyzed. Tori is about to lose conscious. Darkness...
+<<set $soundIndex to 16>>
 Beep.
 Nicole finally pushes the button on the controller but it’s too late -
 The machine already stopped injecting automatically. Tori opens her eyes, she sits up.
 NICOLE (to Tori): How do you feel?
 Tori stands up and looks at her own fingers. People take out phones and open their cameras to record this moment. Nicole puts up a even bigger smile.
 TORI: I feel alright.
-Nicole is a little relieved. People CLAP.
 TORI: Are you going to pay me now?
+<<set $soundIndex to 18>>
+Nicole is a little relieved. People CLAP.
 The crowd LAUGHS, Nicole LAUGHS with them. 
 [[Tori doesn’t. |SchoolScene1]]
 ===
